@@ -101,7 +101,7 @@ h3{
 / ICONS
 /---------------------*/
 
-.fas{
+.icon{
    font-size:280%;
    display:block;
    color: #e67e22;
@@ -110,6 +110,24 @@ h3{
 
 }
 
+/* --------------------------
+/ LINKS
+/------------------------------*/ 
+
+a:link,
+a:visited{
+    color:#e67e22;
+    text-decoration: none;
+    padding:1px;
+    border-bottom: 1px solid #e67e22;
+    transition:border-bottom 1s, color 0.2s;
+}
+
+a:hover,
+a:active{
+    color:#555;
+    border-bottom: 1px solid transparent;
+}
 
 /* --------------------------
 / BUTTONS
@@ -293,8 +311,45 @@ header{
     margin-right:25px;
 }
 
+.btn-app:link,
+.btn-app:visited{
+    border:0;
+}
 .btn-app img{
     height:50px;
     width:auto;
     margin-right:10px;
 }
+
+/* ---------------------
+/ Features Seection
+/ ----------------------*/
+.box img {
+    width:100%;
+    height:auto;
+    margin-bottom: 15px;
+
+}
+
+.city-feature{
+  margin-bottom:5px;
+}
+
+.city-feature i{
+  display:inline-block;
+  width:30px;
+  text-align: center;
+  color:#e67e22;
+  font-size:120%;
+  margin-right: 10px;
+  /*secrets to align text and icons*/
+  line-height: 125%;
+  vertical-align:middle;
+  margin-top:-5px;
+
+}
+
+
+/* ---------------------
+/ TESTIMONIAL Section
+/ ----------------------*/
